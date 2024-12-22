@@ -1,8 +1,5 @@
 # my_portfolio
 
-## Indrasena Reddy Bala
-
-
 
 ## Acknowledgements
 
@@ -79,7 +76,7 @@ To deploy this project run
 I'm a full stack developer...
 
 
-# Hi, I'm Katherine! 👋
+# Hi, I'm Indrasena Reddy Bala! 👋
 
 
 ## 🔗 Links
@@ -89,117 +86,64 @@ I'm a full stack developer...
 
 
 ## Other Common Github Profile Sections
-👩‍💻 I'm currently working on...
+👩‍💻 I'm currently working on Basic Projects
 
-🧠 I'm currently learning...
+🧠 I'm currently learning 'Full Stack Development Using java'
 
-👯‍♀️ I'm looking to collaborate on...
+👯‍♀️ I'm looking to collaborate on 'projects'
 
-🤔 I'm looking for help with...
+🤔 I'm looking for help with 'ai developers' for mentoring.
 
-💬 Ask me about...
+💬 Ask me about 'Khaana app'
 
-📫 How to reach me...
-
-😄 Pronouns...
+📫 How to reach me: @email: indra.ug2022@gmail.com
 
 ⚡️ Fun fact...
+#Decode To Build Application,To Encode Happiness.
 
 
-## 🛠 Skills
-Javascript, HTML, CSS...
+## 🛠 Technical Skills
+Javascript, HTML, CSS, Python, C.
 
 
-## Lessons Learned
+## Projects
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+'Khaana Food' restaurant application.
 
 
 ## Related
 
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
+[Khaana Food](https://github.com/indra1806/khaana)
 
 
 ## Roadmap
 
-- Additional browser support
-
-- Add more integrations
+- Additional browser support: 'ChatGPT' adv version
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot]()
 
 
 ## Support
 
-For support, email fake@fake.com or join our Slack channel.
+For support, email indra.ug2022@gmail.com
 
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+React, TailwindCSS
 
-**Server:** Node, Express
+server: 'Node'
 
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
 
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+If you have any feedback, please reach out to us at indra.ug2022@gmail.com
 
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
     
 ## License
 
