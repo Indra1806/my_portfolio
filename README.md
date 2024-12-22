@@ -1,5 +1,5 @@
 # Glad To See to Here 😁 
-![welcome](R.jpg)
+![welcome](R.gif)
 
 ## Acknowledgements
 
