@@ -123,7 +123,8 @@ Javascript, HTML, CSS, Python, C.
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](https://github.com/Indra1806/my_portfolio/blob/main/images/khaana1.png)
+![App Screenshot](https://github.com/Indra1806/my_portfolio/blob/main/images/khaana2.png)
 
 
 ## Support
