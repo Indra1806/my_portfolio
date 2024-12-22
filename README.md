@@ -15,7 +15,7 @@ Any additional information goes here
 
 ## Authors
 
-- [@indrasena](https://www.github.com/indra1806)
+- [@indrasenareddy bala](https://www.github.com/indra1806)
 
 
 ## Badges
@@ -66,10 +66,10 @@ To deploy this project run
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Light/dark mode toggle 🌙 
+- Live previews 👀 
+- Fullscreen mode 📳 
+- Cross platform ✳️
 
 
 ## 🚀 About Me
@@ -108,7 +108,7 @@ Javascript, HTML, CSS, Python, C.
 
 ## Projects
 
-'Khaana Food' restaurant application.
+'Khaana Food'🍚 restaurant application.
 
 
 ## Related
@@ -128,7 +128,7 @@ Javascript, HTML, CSS, Python, C.
 
 ## Support
 
-For support, email indra.ug2022@gmail.com
+For support, email indra.ug2022@gmail.com 📬
 
 
 ## Tech Stack
