@@ -47,7 +47,7 @@ Please adhere to this project's `code of conduct`.
 
 ## Demo
 
-Insert gif or link to demo
+![Insert gif or link to demo](https://github.com/Indra1806/my_portfolio/blob/main/images/deadline.gif)
 
 
 ## Deployment
