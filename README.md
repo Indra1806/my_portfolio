@@ -1,4 +1,4 @@
-# my_portfolio
+# Glad To See to Here 😁 
 
 
 ## Acknowledgements
@@ -15,7 +15,7 @@ Any additional information goes here
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@indrasena](https://www.github.com/indra1806)
 
 
 ## Badges
@@ -80,7 +80,7 @@ I'm a full stack developer...
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](GitHub profile)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
@@ -113,7 +113,7 @@ Javascript, HTML, CSS, Python, C.
 
 ## Related
 
-[Khaana Food](https://github.com/indra1806/khaana)
+[Khaana Food](https://github.com/indra1806/khaana/)
 
 
 ## Roadmap
