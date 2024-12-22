@@ -123,7 +123,7 @@ Javascript, HTML, CSS, Python, C.
 
 ## Screenshots
 
-![App Screenshot](https://indra1806.github.io/my_portfolio/screen shot 2024-12-06 133142/)
+![App Screenshot]()
 
 
 ## Support
