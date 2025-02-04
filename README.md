@@ -1,4 +1,4 @@
-# Glad To See to Here 😁 
+# Glad To See You Here 😁 
 ![welcome](https://github.com/Indra1806/my_portfolio/blob/main/images/R.gif)
 
 ## Acknowledgements
