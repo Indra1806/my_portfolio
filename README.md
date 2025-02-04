@@ -1,18 +1,6 @@
 # Glad To See You Here 😁 
 ![welcome](https://github.com/Indra1806/my_portfolio/blob/main/images/R.gif)
 
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## Appendix
-
-Any additional information goes here
-
-
 ## Authors
 
 - [@indrasenareddy bala](https://www.github.com/indra1806)
@@ -29,11 +17,6 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 ## Contributing
 
 Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
 
 ## Demo
 
