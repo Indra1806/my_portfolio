@@ -1,42 +1,47 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   My Portfolio
-  </title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;family=Dancing+Script:wght@700&amp;display=swap" rel="stylesheet"/>
-  <style>
-   body {
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
             margin: 0;
             font-family: 'Roboto', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background: linear-gradient(to right, #1e3c72, #dfe2e6);
         }
         .container {
             display: flex;
+            flex-direction: row;
             width: 80%;
             max-width: 1200px;
             background-color: #2a5298;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
         }
-        .left {
-            background-color: #3f62a4;
-            width: 50%;
+        .left, .right {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
+        }
+        .left {
+            background-color: #3f62a4;
+            width: 50%;
             position: relative;
         }
         .left img {
             width: 250px;
             height: 250px;
-            object-fit: fill;
+            object-fit: cover;
             border: 10px solid #1e3c72;
             border-radius: 50%;
             transition: transform 0.3s;
@@ -73,26 +78,27 @@
         }
         .right {
             width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            background-color: #2a5298;
             padding: 40px;
             color: #fff;
+            text-align: center;
         }
         .right h1 {
             font-size: 48px;
             margin: 0;
-            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,cursive;
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
             color: #f7f7f9;
         }
         .right p {
             font-size: 18px;
             line-height: 1.6;
             margin: 20px 0;
-            color: #000;
+            color: #c2cfe6;
         }
         .right .buttons {
             display: flex;
+            flex-direction: row;
+            justify-content: center;
             gap: 20px;
         }
         .right .buttons a {
@@ -148,100 +154,88 @@
             animation: walk 30s linear infinite;
         }
         @keyframes walk {
-            100% {
-                left: 0;
-            }
-            0% {
-                left: 100%;
-            }
+            0% { left: 100%; }
+            100% { left: 0; }
         }
         @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                justify-content: flex-start;
+                padding: 20px;
+            }
             .container {
                 flex-direction: column;
+                width: 100%;
+                box-shadow: none;
             }
             .left, .right {
                 width: 100%;
+                padding: 20px;
+                text-align: center;
             }
             .left img {
                 width: 200px;
                 height: 200px;
+                border-width: 5px;
             }
             .right h1 {
                 font-size: 36px;
             }
+            .right p {
+                font-size: 16px;
+            }
+            .right .buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .menu-icon {
+                right: 10px;
+            }
+            .menu {
+                right: 10px;
+            }
         }
-  </style>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-             const menuIcon = document.querySelector('.menu-icon');
-             const menu = document.querySelector('.menu');
-             menuIcon.addEventListener('click', function() {
-                 menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-                });
-         });
-   </script>
- </head>
- <body>
-  <div class="container">
-   <div class="left">
-    <div class="logo">
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.querySelector('.menu-icon');
+            const menu = document.querySelector('.menu');
+            menuIcon.addEventListener('click', function() {
+                menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">My Logo</div>
+            <img src="your-image.png" alt="Portrait of Indra in a vintage style">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/indrasena-reddy-bala-b11779258/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRSzN2yRQRdSgPxzrlKKSBQ%3D%3D"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Indra1806"><i class="fab fa-github"></i></a>
+                <a href="https://youtube.com/@18Slicesofme"><i class="fab fa-youtube"></i></a>
+                <a href="https://18slicesofme.blogspot.com"><i class="fab fa-blogger"></i></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="menu-icon"><i class="fas fa-bars"></i></div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="https://github.io/indra1806">Source</a>
+            </div>
+            <h1>Indrasena Reddy Bala</h1>
+            <p>An AI enthusiast, aspiring to be a software developer in Artificial Intelligence and Machine Learning.</p>
+            <div class="buttons">
+                <a href="indra_cv.html">View CV</a>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=indra.ug2022@gmail.com&su=Contact+from+Website&body=Hello%2C+I+would+like+to+contact+you+about+something.&bcc=&cc=&subject=" target="_blank">Contact</a>
+            </div>
+        </div>
+        <div class="robot">
+            <img src="https://img.itch.zone/aW1nLzQ5NDI5NjQuZ2lm/original/fJ0uBz.gif" alt="Walking robot gif" width="100" height="100">
+        </div>
     </div>
-    <img alt="Portrait of indra in a vintage style" height="250" src="Screenshot 2024-06-12 133124.png" width="250"/>
-    <div class="social-icons">
-     <a href="https://www.linkedin.com/in/indrasena-reddy-bala-b11779258/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRSzN2yRQRdSgPxzrlKKSBQ%3D%3D">
-      <i class="fab fa-linkedin-in">
-      </i>
-     </a>
-     <a href="https://github.com/Indra1806">
-      <i class="fab fa-github">
-      </i>
-     </a>
-     <a href="https://youtube.com/@18Slicesofme">
-      <i class="fab fa-youtube">
-      </i>
-     </a>
-     <a href="https://18slicesofme.blogspot.com">
-      <i class="fab fa-blogger">
-      </i>
-     </a>
-    </div>
-   </div>
-   <div class="right">
-    <div class="menu-icon">
-     <i class="fas fa-bars">
-     </i>
-    </div>
-    <div class="menu">
-        <a href="index.html">
-         Home
-        </a>
-        <a href="#">
-         About
-        </a>
-        <a href="#">
-         Portfolio
-        </a>
-        <a href="https://github.io/indra1806">
-         Source
-        </a>
-       </div>
-    <h1>
-     Indrasena Reddy Bala
-    </h1>
-    <p>
-     An ai enthusiast, aspiring to be a software developer in Artificial Intelligence and Machine Learning.
-    </p>
-    <div class="buttons">
-     <a href="indra_cv.html">
-      View CV
-     </a>
-     <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=indra.ug2022@gmail.com&su=Contact+from+Website&body=Hello%2C+I+would+like+to+contact+you+about+something.&bcc=&cc=&subject=" target="_blank">
-      Contact
-     </a>
-    </div>
-   </div>
-   <div class="robot">
-    <img alt="Walking robot gif" height="100" src="https://img.itch.zone/aW1nLzQ5NDI5NjQuZ2lm/original/fJ0uBz.gif" width="100"/> 
-  </div>
- </body>
+</body>
 </html>
